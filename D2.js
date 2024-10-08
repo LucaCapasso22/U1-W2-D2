@@ -109,11 +109,17 @@ if (total > 49.99) {
   Utilizzando un blocco condizionale, crea un algoritmo per ordinarle secondo il loro valore, dal più alto al più basso.
   Alla fine mostra il risultato in console.
 */
-let b1 = 1
-let b2 = 2
-let b3 = 3
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+let b1 = 1
+let b2 = 3
+let b3 = 2
+
+let numeri = [b1, b2, b3]
+numeri.sort((a, b) => a - b)
+
+console.log(numeri)
 
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
