@@ -135,6 +135,14 @@ if (typeof a1 === 'number') {
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+let c1 = 2
+
+if (c1 % 2 === 0) {
+  console.log('Il numero è pari.')
+} else {
+  console.log('Il numero è dispari.')
+}
+
 /* ESERCIZIO 10
   Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.
 
